@@ -1,7 +1,7 @@
 {
-  "name": "nestjs-seeder",
-  "version": "0.2.0",
-  "description": "An extension library for NestJS to perform seeding.",
+  "name": "@rancid/nestjs-seeder",
+  "version": "0.2.1",
+  "description": "An extension library for NestJS to perform seeding. Fork to replace faker with faker-js.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "directories": {
@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edwardanthony/nestjs-seeder"
+    "url": "git+https://github.com/elrancid/nestjs-seeder.git"
   },
-  "bugs": "https://github.com/edwardanthony/nestjs-seeder/issues",
-  "homepage": "https://github.com/edwardanthony/nestjs-seeder#readme",
+  "bugs": "https://github.com/elrancid/nestjs-seeder/issues",
+  "homepage": "https://github.com/elrancid/nestjs-seeder#readme",
   "keywords": [
     "seeding",
     "seeder",
@@ -25,18 +25,17 @@
     "nestjs",
     "seeder"
   ],
-  "author": "Edward Anthony <edwardanthony@fastmail.com>",
+  "author": "davide zeffiro <elrancid@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "faker": "^4.1.0"
+    "@faker-js/faker": "^7.2.0"
   },
   "devDependencies": {
-    "@nestjs/common": "^7.3.1",
-    "@nestjs/core": "^7.3.1",
-    "@types/faker": "^4.1.12",
-    "@types/node": "^14.0.14",
+    "@nestjs/common": "^8.4.6",
+    "@nestjs/core": "^8.4.6",
+    "@types/node": "^17.0.42",
     "reflect-metadata": "*",
     "rimraf": "^3.0.2",
-    "rxjs": "^6.6.0"
+    "rxjs": "^7.5.5"
   }
 }

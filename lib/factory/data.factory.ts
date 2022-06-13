@@ -2,7 +2,7 @@ import { Type } from '@nestjs/common';
 import { Factory, PropertyMetadata } from '../interfaces';
 import { FactoryValue } from '../decorators/factory.decorator';
 import { FactoryMetadataStorage } from '../storages/factory.metadata.storage';
-import * as faker from 'faker';
+import { faker } from '@faker-js/faker';
 
 export class DataFactory {
   static createForClass(target: Type<unknown>): Factory {

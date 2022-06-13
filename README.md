@@ -1,5 +1,6 @@
 <p align="center">
 An extension library for NestJS to perform seeding.
+Fork to replace faker with faker-js.
 </p>
 <p align="center" style="max-width: 450px; margin: auto;">
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
